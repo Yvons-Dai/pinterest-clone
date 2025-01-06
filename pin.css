@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0;
+}
+
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background-color: #ccc;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.card1 { grid-row: span 15; background-color: #ff6f61; }
+.card2 { grid-row: span 20; background-color: #6b5b95; }
+.card3 { grid-row: span 10; background-color: #88b04b; }
+.card4 { grid-row: span 25; background-color: #d65076; }
+.card5 { grid-row: span 30; background-color: #ffb347; }
+.card6 { grid-row: span 15; background-color: #45b8ac; }
+.card7 { grid-row: span 20; background-color: #e94b3c; }
+.card8 { grid-row: span 10; background-color: #6c5b7b; }
+.card9 { grid-row: span 25; background-color: #00a86b; }
+.card10 { grid-row: span 30; background-color: #b565a7;}
